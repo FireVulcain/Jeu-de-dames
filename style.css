@@ -1,0 +1,46 @@
+.centeredBlock{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    -webkit-transform : translate(-50%, -50%);-moz-transform : translate(-50%, -50%);-ms-transform : translate(-50%, -50%);-o-transform : translate(-50%, -50%);transform : translate(-50%, -50%);
+}
+#platform{
+
+}
+
+.platform-row {
+	display: flex;
+}
+
+.square {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+
+}
+
+.yellow {
+	background-color: #fad390;
+}
+
+.silver {
+	background-color: silver;
+}
+
+.pawn {
+	border : 1px solid black;
+}
+.whichPlayer{
+	text-align: center;
+	margin-top: 20px;
+	font-size : 25px;
+}
+
+.errorMessage{
+    display: none;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding : 20px;
+    margin-top: 30px;
+}
