@@ -8,6 +8,11 @@ class Player {
 	}
 
 	losesPlayer(){
-		$('.whichPlayer').empty().append(this.color + " à perdu");
+		if(this.color == "white"){
+            $('.whichPlayer').empty().append("Le pion blanc à perdu");
+		}else{
+            $('.whichPlayer').empty().append("Le pion noir à perdu");
+		}
+
 	}
 }

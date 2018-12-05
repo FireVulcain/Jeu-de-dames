@@ -1,5 +1,5 @@
 class Square {
-    
+
 	constructor(x, y, $elt, droppable, platform, game) {
      
 		this.x 			= x;
